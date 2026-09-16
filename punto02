@@ -1,1 +1,41 @@
+2.a
+
+
+           #                                Pregunta que formularía a la Coordinación                                Por qué el algoritmo no puede construirse sin esa respuesta
+
+
+           1                                ¿Que clasifica una solicitud de soporte tecnico                          Porque el algoritmo no puede clasificar las solicitudes
+                                            como urgente?                                                            sin saber que se puede categorizar como urgente o una
+                                                                                                                     simple solicitud de menor importancia.
+
+
+           2                                ¿Cuanto tiempo tardan los tecnicos en atender                            El algoritmo lo necesita para poder decirle al usuario un
+                                            una solicitud?                                                           tiempo aproximado en el que se le va a atender.
+
+
+           3                                ¿Por donde van a ser enviadas las solicitudes?                           Se necesita saber para organizar la entrada de datos del
+                                                                                                                     algoritmo.
+
+
+           4                                ¿Cuando el algoritmo clasifique las solicitudes,                         Se necesita saber esto para organizar la salida de datos
+                                            a donde las envia o muestra?                                             del algoritmo.
+
+
+           5                                En el caso de que constantemente hayan solicitudes                       Esto se necesita saber para evitar una posible acumulación
+                                            urgentes, ¿Que se debe con las solicitudes de                            de solicitudes sin revisar o atender.
+                                            menor importancia?
+
+
+2.b
+
+
+El requerimiento dado no puede implementarse directamente debido a que carece de precision y deja varios pasos a la ambiguedad,
+al este no definir algunos conceptos o variables que son esenciales como por ejemplo el no definir lo que es considerado una solicitud
+urgente o cuanto tiempo se tardan los tecnicos en atender las solicitudes. Ademas, el requerimiento no define por donde van a ser enviados
+los datos de entrada ni que hacer con los datos de salida que el algoritmo dara despues de hacer su trabajo de clasificación, es por esto
+que el requerimiento dado no puede ser implementado directamente en un algoritmo.
+
+
+
+
 
