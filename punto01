@@ -1,0 +1,49 @@
+1.a
+
+a.Para reiniciar el router: desconecte el cable de corriente,
+espere 30 segundos, vuelva a conectarlo y espere hasta que
+el LED de estado quede fijo en verde.
+
+R/Si es un algoritmo.
+
+b.Para limpiar el equipo: retire el polvo hasta que se vea bien
+y aplique la cantidad adecuada de limpiador sobre la
+pantalla.
+
+R/No es un algoritmo, ya que al decir "retire el polvo hasta que se vea bien" muestra una falta de precision
+porque lo que el algoritmo define como bien puede ser diferente a lo que el usuario puede percibir como
+satisfactorio o limpio.
+
+c.Recorra la lista de tickets abiertos y muestre el primero que
+tenga prioridad alta.
+
+R/No es un algoritmo, ya que no es finito debido a que no toma en cuenta el caso en el que no se encuentre un
+ticket con prioridad alta
+
+d.Lea las tres notas del estudiante, súmelas, divida el
+resultado entre tres y muestre el promedio en pantalla.
+
+R/Si es un algoritmo.
+
+1.b
+
+       Caso                             Entrada                                    Proceso                                     Salida
+
+
+        a.                   Router que necesita un reinicio.            Desconectar el cable de corriente,               Router reiniciado
+                                                                         esperar 30 segundos, volver a
+                                                                         conectarlo y esperar hasta que el
+                                                                         LED de estado se quede en verde
+
+
+
+        d.                   Las tres notas de el estudiante.            Sumar las tres notas y dividir el            El promedio del estudiante.
+                                                                         resultado entre 3.
+
+
+
+
+
+
+
+
