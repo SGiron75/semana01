@@ -1,0 +1,61 @@
+3.a
+
+Clasificación de solicitudes - Lenguaje natural
+
+1 - Pides el codigo del solicitante y el tipo de falla, ya sea de red, equipo o software.
+2 - Verificas que el usuario este registrado, si no lo esta entonces rechazas la solicitud.
+3 - Si no te dicen el tipo de falla, entonces rechazas la solicitud.
+4 - Si la solicitud es urgente, entonces tiene una prioridad alta y su tiempo de respuesta es de 2 horas.
+5 - Si no es urgente y el tipo de falla es de red, entonces tiene una prioridad media y su tiempo de respuesta es de 8 horas.
+6 - Si no es urgente y el tipo de falla es de equipo o software, entonces tiene una prioridad baja y su tiempo de respuesta es de 24 horas.
+7 - Cuando la solicitud sea aceptada, entonces muestras la prioridad asignada y su tiempo de respuesta.
+
+3.b
+
+Clasificación de solicitudes - Pseudocodigo
+
+Inicio
+	Escribir "Ingrese el codigo del solicitante"
+	Leer codigo_solicitante
+	Escribir "Ingrese el tipo de falla (1-Red, 2-Equipo, 3-Software)"
+	Leer tipo_falla
+  Si codigo_solicitante=falso Entonces
+		Escribir "SOLICITUD RECHAZADA, Solicitante no registrado"
+	FinSi
+	Si tipo_falla>3 Entonces
+		Escribir "SOLICITUD RECHAZADA, Tipo de falla no valido"
+	FinSi
+	Escribir "¿La falla es critica? Si/No"
+	Leer falla_critica
+	Si falla_critica=Si Entonces
+		Escribir "La prioridad de la solicitud es ALTA, y su tiempo de respuesta es de 2 horas"
+	SiNo
+		Si tipo_falla=1 Entonces
+			Escribir "La prioridad de la solicitud es MEDIA, y su tiempo de espera es de 8 horas"
+		SiNo
+			Escribir "La prioridad de la solicitud es BAJA, y su tiempo de espera es de 24 horas"
+		Fin Si
+	Fin Si
+Fin
+
+3.c
+
+En mi caso si resultaron palabras ambiguas o incompletas al pasar de lenguaje natural a pseudocodigo, ya que no supe como escribir en pseudocodigo la verificación
+del codigo del solicitante, por lo que simplemente puse "Si codigo_solicitante=falso Entonces" haciendo referencia a como en el ejercicio el modulo devolvia
+un verdadero o falso dependiendo de si el solicitante estaba registrado o no.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
