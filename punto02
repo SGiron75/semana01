@@ -22,8 +22,8 @@
 
 
            5                                En el caso de que constantemente hayan solicitudes                       Esto se necesita saber para evitar una posible acumulación
-                                            urgentes, ¿Que se debe con las solicitudes de                            de solicitudes sin revisar o atender.
-                                            menor importancia?
+                                            urgentes, ¿Que se debe hacer con las solicitudes                         de solicitudes sin revisar o atender.
+                                            de menor importancia?
 
 
 2.b
