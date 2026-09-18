@@ -135,13 +135,43 @@ Quinto Caso:
 
 5.b
 
+Primer Caso:
+
+Salida: SOLICITUD RECHADA, Solicitante no registrado
+
+Este es un caso invalido.
+
+Segundo Caso:
+
+Salida: SOLICITUD RECHADA, Tipo de falla no valida
+
+Este es un caso invalido y es el caso limite porque los datos de entrada estan fuera del limite dado.
+
+Tercer Caso:
+
+Salida: La prioridad de la solicitud es ALTA, y su tiempo de respuesta es de 2 horas
+
+Este es un caso que va por el camino feliz.
+
+Cuarto Caso:
+
+Salida: La prioridad de la solicitud es MEDIA, y su tiempo de respuesta es de 8 horas
+
+Este es un caso que va por el camino feliz.
+
+Quinto Caso:
+
+Salida: La prioridad de la solicitud es BAJA, y su tiempo de respuesta es de 24 horas
+
+Este es un caso que va por el camino feliz.
 
 
+5.c
 
-
-
-
-
+Si me equivoque en algo en el pseudocodigo, porque cuando se daba un dato invalido como un codigo no registrado
+o un tipo de falla no valido, el algoritmo no se detenia sino que daba el mensaje de SOLICITUD RECHAZADA, pero seguia
+recibiendo datos, entonces tuve que poner un FinAlgoritmo despues de cada salida de los casos invalidos aunque no se
+si es la solución real porque cuando aplico esto mismo en PseInt el algoritmo deja de funcionar.
 
 
 
