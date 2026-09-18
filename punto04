@@ -16,8 +16,8 @@ por lo que el poner primero la validación del tipo de falla seria menos conveni
 mas generales para pasar a preguntas mas especificas y asi dar su resultado.
 Si se obtendria el mismo comportamiento.
 El algoritmo no da un mensaje para un solicitante no registrado y que ademas ingresa un tipo de falla no valido, porque el algoritmo
-inmediatamente rechaza la solicitud cuando uno de los dos se incumple, osea que si alguien ingresa un codigo de solicitante incorrecto
-no podra ver el mensaje de tipo de falla invalido ya que directamente no permite el ingreso de mas datos.
+muestra o un mensaje para un codigo no registrado o un mensaje de tipo de falla invalida, por lo que no se veria un mensaje sino que
+se verian dos, cada uno para cada problema o rechazo de solicitud.
 
 
 
