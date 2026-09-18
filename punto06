@@ -1,6 +1,69 @@
 6.a
 
 
+         #               Linea(s)                 Descripción del error                        Consecuencia para el usuario                        Corrección propuesta  
+
+
+         1                  2                     Segun el requerimiento, falta                Los procesos necesarios para sacar                  Agregar en la entrada de datos
+                                                  un dato de entrada.                          el promedio del estudiante daran un                 la tercer nota del estudiante.
+                                                                                               resultado incorrecto.
+
+
+         2                4 a 7                   El algoritmo muestra una nota                Cuando un estudiante con un promedio                Cambiar el mayor o igual a un
+                                                  mayor o igual a 3.0 como                     que deberia ser aprobado ingrese sus                menor.
+                                                  reprobado.                                   notas, se le sera mostrado que reprobo
+                                                                                               y viceversa con los estudiantes que si
+                                                                                               reprobarón.
+
+
+         3                  9                     El algoritmo no toma en cuenta el            Si un estudiante ingresa una nota mayor             Agregar que la nota 3 no puede
+                                                  caso de que la nota 3 sea mayor a            a 5.0, da la posibilidad de que termine             ser mayor a 5.0.
+                                                  5.0.                                         con un promedio imposible de conseguir.
+
+
+         4                9 a 11                  Estas lineas de codigo no estan en           Si un estudiante ingresa notas invalidas,           Mover las lineas 9 a 11 justo
+                                                  el lugar indicado, haciendo que el           el algoritmo no hara nada y dara un                 despues de la linea 3.
+                                                  algoritmo valide las notas despues           resultado equivocado.
+                                                  de hacer el procedimiento de la
+                                                  definitiva.
+
+
+         5                  9                     Falta verificar que las notas no             Si un estudiante ingresa por accidente una          Agregar una verificación para
+                                                  sean menores a 0.0.                          nota negativa, el algoritmo no lo va a              las notas menores a 0.0.
+                                                                                               rechazar si no que va a continuar, dando un
+                                                                                               resultado incorrecto.
+
+
+6.b
+
+1 Inicio
+2 Leer n1, n2, n3
+3 definitiva <- n1 * 0.30 + n2 * 0.30 + n3 * 0.40
+4 Si (n1 > 5.0) O (n2 > 5.0) O (n3 > 5.0) Entonces
+5 Escribir "Nota inválida"
+6 FinSi
+7 Si (n1 < 0.0) O (n2 < 0.0) O (n3 < 0.0) Entonces
+8 Escribir "Nota inválida"
+9 FinSi
+10 Si definitiva < 3.0 Entonces
+11 Escribir "Reprobado"
+12 Sino
+13 Escribir "Aprobado"
+14 FinSi
+15 Escribir "La definitiva es: ", definitiva
+16 Fin
+
+
+6.c
+
+Para mi los errores que mas me costaron fueron el 4 y 5, el 4 porque estaba buscando errores como si le faltase algo o si tuviese algo de mas,
+cuando el problema era mas general y era de toda la linea y no de algo que estuviese en la linea, y el 5 porque se me olvido que existian los numeros
+negativos y no tome en cuenta que alguien por accidente le puede poner un signo negativo a su nota.
+Se podria decir que al algoritmo le faltaba generalidad ya que no tomaba en cuenta muchos de los casos en los que los datos era invalidos o fuera de lo
+que era posible segun el requerimiento.
+
+
+
 
 
 
