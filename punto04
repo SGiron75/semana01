@@ -1,0 +1,41 @@
+4.b
+
+Conteo de diagrama:
+
+Terminales: 2
+Procesos: 0
+Prosesos predefinidos: 0
+Decisiones: 4
+Operaciones de entrada: 3
+Operaciones de salida: 8
+
+4.c
+
+Yo ubique primero la validadción de el codigo de solicitante porque directamente no se reciben solicitudes de un codigo no registrado,
+por lo que el poner primero la validación del tipo de falla seria menos conveniente porque el algoritmo va de preguntas o validaciones
+mas generales para pasar a preguntas mas especificas y asi dar su resultado.
+Si se obtendria el mismo comportamiento.
+El algoritmo no da un mensaje para un solicitante no registrado y que ademas ingresa un tipo de falla no valido, porque el algoritmo
+inmediatamente rechaza la solicitud cuando uno de los dos se incumple, osea que si alguien ingresa un codigo de solicitante incorrecto
+no podra ver el mensaje de tipo de falla invalido ya que directamente no permite el ingreso de mas datos.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
