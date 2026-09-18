@@ -1,5 +1,140 @@
 5.a
 
+Primer Caso:
+
+
+            Paso                             Instrucción                                  Variables                                Salida
+
+
+              1                                Inicio                                         -                                       -
+
+              2                     Ingrese Codigo del Solicitante              codigo_solicitante=No registrado                      -
+
+              3                         Ingrese Tipo de Falla                            tipo_falla=2                                 -
+
+              4                    Verificar si el solicitante esta                 codigo_solicitante=falso                 SOLICITUD RECHAZADA,
+                                             registrado                                                                    Solicitante no registrado
+
+              5                           Fin del algoritmo                         codigo_solicitante=falso                         Fin
+                                                                                         tipo_falla=2
+
+
+Segundo Caso:
+
+
+            Paso                             Instrucción                                  Variables                                Salida
+
+
+              1                                Inicio                                         -                                       -
+
+              2                     Ingrese Codigo del Solicitante               codigo_solicitante=Registrado                        -
+
+              3                         Ingrese Tipo de Falla                            tipo_falla=5                                 -
+
+              4                    Verificar si el solicitante esta              codigo_solicitante=verdadero                         -
+                                             registrado
+
+              5                    Verificar si el tipo de falla es                      tipo_falla=5                        SOLICITUD RECHAZADA,
+                                             mayor que 3                                                                    Tipo de falla no valido
+
+              6                           Fin del algoritmo                      codigo_solicitante=verdadero                         Fin
+                                                                                         tipo_falla=5
+
+
+Tercer Caso:
+
+
+            Paso                             Instrucción                                  Variables                                 Salida
+
+
+              1                                Inicio                                         -                                        -
+
+              2                     Ingrese Codigo del Solicitante               codigo_solicitante=Registrado                         -
+
+              3                         Ingrese Tipo de Falla                            tipo_falla=2                                  -
+
+              4                    Verificar si el solicitante esta              codigo_solicitante=verdadero                          -
+                                             registrado
+
+              5                    Verificar si el tipo de falla es                      tipo_falla=2                                  -
+                                             mayor que 3
+
+              6                     Ingrese si la falla es critica                  falla_critica=verdadero                            -
+
+              7                    Verificar si la falla es critica                 falla_critica=verdadero             La prioridad de la solicitud es ALTA,
+                                                                                                                        y su tiempo de respuesta es de 2 horas
+
+              8                           Fin del algoritmo                      codigo_solicitante=verdadero                          Fin
+                                                                                         tipo_falla=2
+                                                                                    falla_critica=verdadero
+
+
+
+Cuarto Caso:
+
+
+            Paso                             Instrucción                                  Variables                                 Salida
+
+
+              1                                Inicio                                         -                                        -
+
+              2                     Ingrese Codigo del Solicitante               codigo_solicitante=Registrado                         -
+
+              3                         Ingrese Tipo de Falla                            tipo_falla=1                                  -
+
+              4                    Verificar si el solicitante esta              codigo_solicitante=verdadero                          -
+                                             registrado
+
+              5                    Verificar si el tipo de falla es                      tipo_falla=1                                  -
+                                             mayor que 3
+
+              6                     Ingrese si la falla es critica                    falla_critica=falso                              -
+
+              7                    Verificar si la falla es critica                   falla_critica=falso                              -
+
+              8                       Verificar si tipo_falla=1                          tipo_falla=1                   La prioridad de la solicitud es MEDIA,
+                                                                                                                        y su tiempo de respuesta es de 8 horas
+
+              9                           Fin del algoritmo                      codigo_solicitante=verdadero                          Fin
+                                                                                         tipo_falla=1
+                                                                                      falla_critica=falso
+
+
+
+Quinto Caso:
+
+
+            Paso                             Instrucción                                  Variables                                 Salida
+
+
+              1                                Inicio                                         -                                        -
+
+              2                     Ingrese Codigo del Solicitante               codigo_solicitante=Registrado                         -
+
+              3                         Ingrese Tipo de Falla                            tipo_falla=3                                  -
+
+              4                    Verificar si el solicitante esta              codigo_solicitante=verdadero                          -
+                                             registrado
+
+              5                    Verificar si el tipo de falla es                      tipo_falla=3                                  -
+                                             mayor que 3
+
+              6                     Ingrese si la falla es critica                    falla_critica=falso                              -
+
+              7                    Verificar si la falla es critica                   falla_critica=falso                              -
+
+              8                       Verificar si tipo_falla=1                          tipo_falla=3                                  -
+
+              9                             Ejecutar SiNo                                tipo-falla=3                   La prioridad de la solicitud es BAJA,
+                                                                                                                        y su tiempo de respuesta es de 24 horas
+
+             10                           Fin del algoritmo                      codigo_solicitante=verdadero                          Fin
+                                                                                         tipo_falla=3
+                                                                                      falla_critica=falso
+
+
+
+
 
 
 
