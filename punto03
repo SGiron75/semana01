@@ -21,9 +21,11 @@ Inicio
 	Leer tipo_falla
   Si codigo_solicitante=falso Entonces
 		Escribir "SOLICITUD RECHAZADA, Solicitante no registrado"
+        FinAlgoritmo
 	FinSi
 	Si tipo_falla>3 Entonces
 		Escribir "SOLICITUD RECHAZADA, Tipo de falla no valido"
+        FinAlgoritmo
 	FinSi
 	Escribir "¿La falla es critica? Si/No"
 	Leer falla_critica
